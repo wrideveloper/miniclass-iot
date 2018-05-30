@@ -10,26 +10,26 @@ roadmap untuk miniclass IOT WRI
     * Subnetting
     * Scanning Internet Protocol
     * Server SSH VNC dan FTP
-    * Penjelasan Linux
+3.  **Penjelasan Linux**
     * Cara Instalasi Linux Ubuntu
     * Perintah Dasar Linux
     * Manajemen Paket Linux Ubuntu
     * Pembuatan Server SSH VNC dan FTP
-3.  **Pemrograman Python** :snake:
+4.  **Pemrograman Python** :snake:
     * Penjelasan Python
     * Syntax Dasar Python
     * Python Module
-4.  **Raspberry** :strawberry:
+5.  **Raspberry** :strawberry:
     * Penjelasan Raspberry
     * Instalasi Raspian
     * Mengoneksikan Raspian ke PC
     * Pengenalan GPIO
     * Membaca Sensor
-5.  **Elektro** :electric_plug:
+6.  **Elektro** :electric_plug:
     * Dasar Elektro
     * I2C
     * PWM
-6.  **Penerapan IOT**
+7.  **Penerapan IOT**
     * Pengenalan Web Service
     * Membuat Web Service
     * Koneksi Raspberry dan Web Service
