@@ -16,7 +16,7 @@ roadmap untuk miniclass IOT WRI
     * Manajemen Paket Linux Ubuntu
     * Pembuatan Server SSH VNC dan FTP
 4.  **Pemrograman Python** :snake:
-    * Penjelasan Python
+    * [Penjelasan Python](topik4/intro-python.md)
     * Syntax Dasar Python
     * Python Module
 5.  **Raspberry** :strawberry:
