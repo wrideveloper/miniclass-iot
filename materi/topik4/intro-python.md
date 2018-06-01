@@ -2,7 +2,7 @@
 
   ![logo](logo-python.png)
   
-  ####Python is a programming language that lets you work quickly and integrate systems more effectively
+  #### Python is a programming language that lets you work quickly and integrate systems more effectively
 
   Python banyak digunakan untuk membuat berbagai macam program, seperti: program CLI, Program GUI (desktop), Aplikasi Mobile,   Web, IoT, Game, Program untuk Hacking, dsb.
 
