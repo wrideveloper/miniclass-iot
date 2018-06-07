@@ -13,7 +13,7 @@ roadmap untuk miniclass IOT WRI
 3.  **Penjelasan Linux**
     * Cara Instalasi Linux Ubuntu
     * Perintah Dasar Linux
-    * Manajemen Paket Linux Ubuntu
+    * [Manajemen Paket Linux Ubuntu](materi/topik3/paket-linux.md) 
     * Pembuatan Server SSH VNC dan FTP
 4.  **Pemrograman Python** :snake:
     * [Penjelasan Python](materi/topik4/intro-python.md)
