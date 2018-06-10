@@ -1,7 +1,11 @@
-#Instalasi Linux
+# Instalasi Linux
 
-**Yang Harus di Siapkan**
+Sebelum kita melakaukan installasi linux kita juga harus tau asal usul linux dan apa itu linux. linux adalah salah satu Operating System (OS), sama seperti Windows. Linux merupakan sistem operasi yang OPENSOURCE, artinya linux dapat dilihat source codenya, dimodifikasi, dan dikembangkan oleh siapa saja. Asas Linux bermula daripada proses pengembangan UNIX yang mana merupakan implementasi bebas dari POSIX, multi-tasking, vitual memory, shared libararies, demand loading, proper memory management, dan multi user.
+![gambar](img/linux.png)
+
+**Yang Harus di Siapkan Untuk Installasi Linux**
 * Download iso terlebih dahulu (https://www.ubuntu.com/download/desktop).
-* Siapkan flashdiks kosong.
-* Siapkan sofware untuk membuat bootable bisa menggunakan rufus,etcher dll.
+* Buat bootalbe ke usb untuk software, kalian bisa gunakan rufus,etcher atau yang sering kalian gunakan.
+* Boot usb melalui BIOS.
+* Terakhir lakukan konfigurasi profil.
 
