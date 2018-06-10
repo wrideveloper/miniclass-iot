@@ -7,5 +7,8 @@ Sebelum kita melakaukan installasi linux kita juga harus tau asal usul linux dan
 * Download iso terlebih dahulu (https://www.ubuntu.com/download/desktop).
 * Buat bootalbe ke usb untuk software, kalian bisa gunakan rufus,etcher atau yang sering kalian gunakan.
 * Boot usb melalui BIOS.
+* Pastikan format hdd memiliki format ext4.
 * Terakhir lakukan konfigurasi profil.
 
+Untuk lebih jelasnya kalian bisa lihat tutroial dibawah ini.
+(https://www.youtube.com/watch?v=GA2g9UrXJUA)

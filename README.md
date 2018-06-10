@@ -11,7 +11,7 @@ roadmap untuk miniclass IOT WRI
     * Scanning Internet Protocol
     * Server SSH VNC dan FTP
 3.  **Penjelasan Linux**
-    * Cara Instalasi Linux Ubuntu
+    * [Cara Instalasi Linux Ubuntu](materi/topik3/installasi.md)
     * [Perintah Dasar Linux](materi/topik3/perintah-dasar.md)
     * [Manajemen Paket Linux Ubuntu](materi/topik3/paket-linux.md)
     * Pembuatan Server SSH VNC dan FTP
