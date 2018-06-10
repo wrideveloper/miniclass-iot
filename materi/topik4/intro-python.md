@@ -1,14 +1,14 @@
 # Pyhton
 
   ![logo](logo-python.png)
-  
+
   #### Python is a programming language that lets you work quickly and integrate systems more effectively
 
   Python banyak digunakan untuk membuat berbagai macam program, seperti: program CLI, Program GUI (desktop), Aplikasi Mobile,   Web, IoT, Game, Program untuk Hacking, dsb.
 
   Python juga dikenal dengan bahasa pemrograman yang mudah dipelajari, karena struktur sintaknya rapi dan mudah dipahami.
 
-  Python bagus untuk pemula yang belum pernah `coding` *hehe
+  Python bagus untuk pemula yang belum pernah `ngoding`
 
 
   ## Why Use Python?
@@ -24,7 +24,7 @@
     - Cepat dan efektif
     - Mudah dipelajari
     - Sekedar ingin tahu saja.
-    - (Banyak dah. cari tau sendiri aja *lol)
+    - (Banyak dah. cari tau sendiri aja)
 
 
   ## Alat Tempur Belajar Python
