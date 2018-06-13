@@ -1,7 +1,7 @@
 # PERINTAH DASAR LINUX
 
 
-Setelah kita mengetahui manajemen pada masing masing distro, kita harus mengetahui perintah dasar untuk mengoprasikan linux. Berikut adalah perintah dasar yang sering kita gunakan.
+Setelah kita mengetahui manajemen pada masing-masing distro, kita harus mengetahui perintah dasar untuk mengoprasikan linux. Berikut adalah perintah dasar yang sering kita gunakan.
 ![asd](img/perintah.png)
 
     -  mkdir membuat direktori.
