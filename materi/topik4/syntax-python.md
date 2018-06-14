@@ -39,4 +39,5 @@ Nah, itu tadi adalah beberapa contoh singkat penggunaan Syntax python. kalo mau 
 **Note** : tutorial lengkapnya klik
 [disini](https://www.petanikode.com/tutorial/python/)
 
-**Tips** : Kalo males ngetik code bisa pake *Snippet*
+**Tips** : Bahasa python sangat sensitif terhadap indentasi, maka bisa gunakan fitur 'Reindent' pada text editor
+
