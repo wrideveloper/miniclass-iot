@@ -1,7 +1,7 @@
 # Instalasi Linux
 
-Sebelum kita melakaukan installasi linux kita juga harus tau asal usul linux dan apa itu linux. linux adalah salah satu Operating System (OS), sama seperti Windows. Linux merupakan sistem operasi yang OPENSOURCE, artinya linux dapat dilihat source codenya, dimodifikasi, dan dikembangkan oleh siapa saja.
-![gambar](img/linux.png)
+Sebelum kita melakukan installasi linux kita juga harus tau asal usul linux dan apa itu linux. linux adalah salah satu operating System (OS), sama seperti Windows. Linux merupakan sistem operasi yang OPENSOURCE, artinya linux dapat dilihat source codenya, dimodifikasi, dan dikembangkan oleh siapa saja. 
+            ![gambar](img/linux.png)
 
 **Yang Harus di Siapkan Untuk Installasi Linux**
 * Download iso terlebih dahulu (https://www.ubuntu.com/download/desktop).
