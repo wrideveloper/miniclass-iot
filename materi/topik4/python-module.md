@@ -9,7 +9,7 @@ Di Python, untuk memakai modul lain dalam script yang kita buat, kita perlu Meng
 
     import sys
 
-Modul yang kita import bernama `sys`, modul 'sys' digunakan untuk 
+Modul yang kita import bernama `sys`, modul 'sys' digunakan untuk
 
 Jika nama modul yang ingin dipakai sudah diketahui dari awal, kita bisa menuliskannya secara langsung dalam kode yang kita buat. Namun bagaimana jika nama modul tersebut belum diketahui dari awal sehingga harus dapat diimpor belakangan secara dinamis?
 
