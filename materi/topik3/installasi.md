@@ -1,14 +1,18 @@
-# Instalasi Linux
+# Instalasi Linux Ubuntu
 
-Sebelum kita melakukan installasi linux kita juga harus tau asal usul linux dan apa itu linux. linux adalah salah satu operating System (OS), sama seperti Windows. Linux merupakan sistem operasi yang OPENSOURCE, artinya linux dapat dilihat source codenya, dimodifikasi, dan dikembangkan oleh siapa saja. 
-            ![gambar](img/linux.png)
+<img src="img/install.png" height="100"/>
 
-**Yang Harus di Siapkan Untuk Installasi Linux**
-* Download iso terlebih dahulu (https://www.ubuntu.com/download/desktop).
-* Buat bootable ke usb untuk software, kalian bisa gunakan rufus,etcher atau yang sering kalian gunakan.
-* Boot usb melalui BIOS.
-* Pastikan format hdd memiliki format ext4.
-* Terakhir lakukan konfigurasi profil.
+Pertama - tama yang akan kita pelajari adalah cara menginstall linux ubuntu ke laptop
+
+**Beberapa tahap untuk melakukan installasi linux ubuntu :**
+
+- Download iso terlebih dahulu (https://www.ubuntu.com/download/desktop).
+- Buat bootable ke usb, kita bisa menggunakan rufus, etcher atau yang lain.
+- Boot USB melalui BIOS.
+- Buat partisi root dengan format EXT4.
+- Buat partisi untuk swap
+- Apabila menggunakan EFI, buatlah EFI Partition System
+- Terakhir lakukan konfigurasi profil.
 
 Untuk lebih jelasnya kalian bisa lihat tutroial dibawah ini.
 (https://www.youtube.com/watch?v=GA2g9UrXJUA)

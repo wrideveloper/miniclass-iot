@@ -1,12 +1,21 @@
-# Manajemen Paket Pada Linux 
+# Manajemen Paket Pada Linux
 
- Sebelum mengenal linux kita harus tau apakah itu manajemen paket pada linux, manajemem paket adalah apilikasi atau sofware pada linux yang di gunakan untuk menginstall, mencari, menghapus dan mengupdate sofware. Sebelum mengenal lebih jauh tentang manajemen linux kita harus tau format paket pada distro linux. 
- ![Gambar](img/package-management1.png)
+![Gambar](img/package-management1.png)
 
-## 1. Berikut adalah format paket pada masing-masing distro : 
+## Format Paket
+
+Berbeda dengan windows yang menggunakan extensi `.exe`, linux memiliki banyak extensi untuk paketnya, tergantung distro yang digunakan
+
 ![Format](img/format-linux.png)
 
-## 2. Untuk mengetahui tentang manajemen paket pada linux lebih jauh bisa kalian baca pada referensi link di bawah ini
+## Software Repository
 
+Dalam linux, kita akan mengenal istilah **software repository**, dimana semua software yang kita butuhkan terdapat pada sebuah server, sehingga apabila kita membutuhkan aplikasi, kita cukup mencarinya di dalam repository tersebut, aplikasi yang terdapat pada server tersebut sudah diuji keamanannya dari bug dan virus, sehingga lebih aman daripada kita menginstall aplikasi bebas dari internet yang rawan terdapat virus.
 
--  **Tech mint -** https://www.tecmint.com/linux-package-management/
+**Untuk menginstall aplikasi melalui software repository, kita bisa menggunakan tool berikut :**
+
+[`apt`](https://itsfoss.com/apt-command-guide/) - digunakan pada debian / ubuntu
+
+[`yum`](https://www.tecmint.com/20-linux-yum-yellowdog-updater-modified-commands-for-package-mangement/) - digunakan pada redhat / centos
+
+[`dnf`](https://www.tecmint.com/dnf-commands-for-fedora-rpm-package-management/) - digunakan pada fedora
