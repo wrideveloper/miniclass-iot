@@ -21,7 +21,7 @@ roadmap untuk miniclass IOT WRI
     - [Penjelasan Python](materi/topik4/intro-python.md)
     - [Syntax Dasar Python](materi/topik4/syntax-python.md)
     - Struktur Data Pada Python
-    - Python Module
+    - [Python Module](materi/topik4/python-module.md)
 5.  **Raspberry** :strawberry:
     - Penjelasan Raspberry
     - Instalasi Raspian
