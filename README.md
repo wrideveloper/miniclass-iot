@@ -32,7 +32,10 @@ roadmap untuk miniclass IOT WRI
     - Dasar Elektro
     - I2C
     - PWM
-7.  **Penerapan IOT**
+7.  **Web Service**
     - Pengenalan Web Service
-    - Membuat Web Service
-    - Koneksi Raspberry dan Web Service
+    - Pengenalan Flask
+    - Membuat Web Service dengan Flask
+8.  **Impelementasi IOT**
+    - Mengontrol Lampu dengan Internet
+    - To be added...
