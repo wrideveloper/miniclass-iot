@@ -10,9 +10,9 @@ roadmap untuk miniclass IOT WRI
     - Scanning Internet Protocol
     - Server SSH VNC dan FTP
 3.  **Penjelasan Linux**
-    - Penjelasan Linux
-    - Penjelasan Distro Linux
-    - Penjelasan Desktop Environtment
+    - [Penjelasan Linux](materi/topik3/penjelasan-linux.md)
+    - [Penjelasan Distro Linux](materi/topik3/penjelasan-distro-linux.md)
+    - [Penjelasan Desktop Environment](materi/topik3/penjelasan-desktop-environment.md)
     - [Cara Instalasi Linux Ubuntu](materi/topik3/installasi.md)
     - [Perintah Dasar Linux](materi/topik3/perintah-dasar.md)
     - [Manajemen Paket Linux Ubuntu](materi/topik3/paket-linux.md)
