@@ -15,7 +15,7 @@ roadmap untuk miniclass IOT WRI
     - [Penjelasan Desktop Environment](materi/topik3/penjelasan-desktop-environment.md)
     - [Cara Instalasi Linux Ubuntu](materi/topik3/installasi.md)
     - [Perintah Dasar Linux](materi/topik3/perintah-dasar.md)
-    - [Manajemen Paket Linux Ubuntu](materi/topik3/paket-linux.md)
+    - [Manajemen Paket Linux](materi/topik3/paket-linux.md)
     - [Pembuatan Server SSH VNC dan FTP](materi/topik3/pembuatan-server-ssh-vnc-ftp.md)
 4.  **Pemrograman Python** :snake:
     - [Penjelasan Python](materi/topik4/intro-python.md)
