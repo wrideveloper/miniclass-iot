@@ -22,6 +22,7 @@ roadmap untuk miniclass IOT WRI
     - [Syntax Dasar Python](materi/topik4/syntax-python.md)
     - [Struktur Data Pada Python](materi/topik4/struktur-data-pada-python.md)
     - [Python Module](materi/topik4/python-module.md)
+    - Package Manager
 5.  **Raspberry** :strawberry:
     - Penjelasan Raspberry
     - Instalasi Raspian
@@ -34,7 +35,9 @@ roadmap untuk miniclass IOT WRI
     - PWM
 7.  **Web Service**
     - Pengenalan Web Service
+    - Pengenalan Virtual Environment
     - Pengenalan Flask
+    - Function Decorator
     - Membuat Web Service dengan Flask
 8.  **Impelementasi IOT**
     - Mengontrol Lampu dengan Internet
