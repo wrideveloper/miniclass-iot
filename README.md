@@ -9,7 +9,7 @@ roadmap untuk miniclass IOT WRI
     - Subnetting
     - Scanning Internet Protocol
     - Server SSH VNC dan FTP
-3.  **Penjelasan Linux**
+3.  **Dasar Linux**
     - [Penjelasan Linux](materi/topik3/penjelasan-linux.md)
     - [Penjelasan Distro Linux](materi/topik3/penjelasan-distro-linux.md)
     - [Penjelasan Desktop Environment](materi/topik3/penjelasan-desktop-environment.md)
@@ -21,7 +21,8 @@ roadmap untuk miniclass IOT WRI
     - [Penjelasan Python](materi/topik4/intro-python.md)
     - [Syntax Dasar Python](materi/topik4/syntax-python.md)
     - [Struktur Data Pada Python](materi/topik4/struktur-data-pada-python.md)
-    - [Python Module](materi/topik4/python-module.md)
+    - [Importing Module](materi/topik4/importing-module.md)
+    - Exporting Module
     - Package Manager
 5.  **Raspberry** :strawberry:
     - Penjelasan Raspberry
@@ -39,6 +40,9 @@ roadmap untuk miniclass IOT WRI
     - Pengenalan Flask
     - Function Decorator
     - Membuat Web Service dengan Flask
-8.  **Impelementasi IOT**
-    - Mengontrol Lampu dengan Internet
+8.  **Database**
+    - Pengenalan Database
+    - Pengenalan Syntax SQL
+    - Mengoneksikan Python dan Database
+9.  **Impelementasi IOT**
     - To be added...
