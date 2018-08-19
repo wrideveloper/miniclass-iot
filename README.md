@@ -40,6 +40,7 @@ roadmap untuk miniclass IOT WRI
     - Pengenalan Flask
     - Function Decorator
     - Membuat Web Service dengan Flask
+    - Mengoneksikan Raspberry dengan Web Service
 8.  **Database**
     - Pengenalan Database
     - Pengenalan Syntax SQL
