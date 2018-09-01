@@ -23,6 +23,7 @@ roadmap untuk miniclass IOT WRI
     - [Struktur Data Pada Python](materi/topik4/struktur-data-pada-python.md)
     - [Importing Module](materi/topik4/importing-module.md)
     - Exporting Module
+    - Object Oriented Programming
     - Package Manager
 5.  **Raspberry** :strawberry:
     - Penjelasan Raspberry
