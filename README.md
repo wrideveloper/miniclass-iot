@@ -31,10 +31,10 @@ roadmap untuk miniclass IOT WRI
     - Mengoneksikan Raspian ke PC
     - Pengenalan GPIO
     - Membaca Sensor
-6.  **Elektro** :electric_plug:
-    - Dasar Elektro
-    - I2C
-    - PWM
+6.  **Dasar Elektronika** :electric_plug:
+    - Pengenalan Komponen2 Elektronik
+    - Tips&Trik Keamanan
+    - Komunikasi Serial
 7.  **Web Service**
     - Pengenalan Web Service
     - Pengenalan Virtual Environment
