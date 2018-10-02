@@ -26,10 +26,10 @@ roadmap untuk miniclass IOT WRI
     - Object Oriented Programming
     - Package Manager
 5.  **Raspberry** :strawberry:
-    - Penjelasan Raspberry
-    - Instalasi Raspian
+    - [Penjelasan Raspberry](materi/topik5/penjelasanraspi.md)
+    - [Instalasi Raspbian](materi/topik5/installrasp.md)
     - Mengoneksikan Raspian ke PC
-    - Pengenalan GPIO
+    - [Pengenalan GPIO](materi/topik5/gpio.md)
     - Membaca Sensor
 6.  **Dasar Elektronika** :electric_plug:
     - Pengenalan Komponen2 Elektronik
