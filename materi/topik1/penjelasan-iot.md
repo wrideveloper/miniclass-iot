@@ -16,7 +16,9 @@ Dengan IOT hal semacam itu bisa dilakukan, hal diatas merupakan contoh implement
 
 > Mengumpulkan benda di seluruh dunia, kemudian menghubungkannya
 
-**Selengkapnya tentang penjelasan IOT -** https://medium.com/iotforall/what-is-iot-f825c7304368
+**Selengkapnya tentang penjelasan IOT -** 
+https://medium.com/iotforall/what-is-iot-f825c7304368
+https://internetofthingsagenda.techtarget.com/definition/Internet-of-Things-IoT
 
 ## Contoh Penerapan IOT
 
