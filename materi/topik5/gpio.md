@@ -7,5 +7,4 @@ GPIO adalah singkatan dari General Purpose Input Ouput, GPIO ini adanya di mana?
 GPIO memiliki fungsi untuk mengalirkan data ataupun tegangan listrik di mana pin tersebut bisa digunakan sebagai media penyalur input atau output, input dan output-nya dapat berupa data atau tegangan listrik.
 
 **Untuk Mengenal GPIO Lebih Jauh Sialakan Buka Link diBawah Ini :**
-`````
 https://pythonprogramming.net/gpio-raspberry-pi-tutorials/
