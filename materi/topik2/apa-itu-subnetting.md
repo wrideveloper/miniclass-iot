@@ -10,6 +10,6 @@ Untuk membagi host dalam suatu jaringan membutuhkan subnet mask.
 
 Subnet mask adalah istilah teknologi Informasi yang membedakan Network ID dan Host ID atau sebagai penentu porsi Network ID dan Host ID pada deretan kode biner.
 
-Apa itu Network ID dan Host ID ? Network ID adalah bagian dari IP Address yg berfungsi untuk menunjukan di jaringan mana komputer atau device tersebut berada, sedangkan Host ID menunjukan server, router, workstation, dan host TCP/IP lainnya yang berada di dalam jaringan tersebut.
+Apa itu **Network ID** dan **Host ID** ? Network ID adalah bagian dari IP Address yg berfungsi untuk menunjukan di jaringan mana komputer atau device tersebut berada, sedangkan Host ID menunjukan server, router, workstation, dan host TCP/IP lainnya yang berada di dalam jaringan tersebut.
 
 **Selengkapnya mengenai penjelasan Subnetting :** https://medium.com/tech-jobs-academy/subnetting-8ca804ec10c8
