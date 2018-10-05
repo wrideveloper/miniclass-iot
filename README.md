@@ -5,7 +5,7 @@ roadmap untuk miniclass IOT WRI
 1.  **Pengenalan IOT**
     - [Penjelasan IOT](materi/topik1/penjelasan-iot.md)
 2.  **Dasar Jaringan Komputer**
-    - Internet Protocol
+    - [Internet Protocol](materi/topik2/internet-protokol.md)
     - [Subnetting](materi/topik2/apa-itu-subnetting.md)
     - Scanning Internet Protocol
     - Server SSH VNC dan FTP
