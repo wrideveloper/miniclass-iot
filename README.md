@@ -36,6 +36,7 @@ roadmap untuk miniclass IOT WRI
     - Tips&Trik Keamanan
     - Komunikasi Serial
 7.  **Web Service**
+    - [Parsing Data dari JSON](materi/topik7/json.md) 
     - Pengenalan Web Service
     - Pengenalan Virtual Environment
     - Pengenalan Flask
