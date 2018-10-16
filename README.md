@@ -19,12 +19,9 @@ roadmap untuk miniclass IOT WRI
     - [Pembuatan Server SSH VNC dan FTP](materi/topik3/pembuatan-server-ssh-vnc-ftp.md)
 4.  **Pemrograman Python** :snake:
     - [Penjelasan Python](materi/topik4/intro-python.md)
-    - [Syntax Dasar Python](materi/topik4/syntax-python.md)
-    - [Struktur Data Pada Python](materi/topik4/struktur-data-pada-python.md)
-    - [Importing Module](materi/topik4/importing-module.md)
-    - Exporting Module
-    - Object Oriented Programming
     - Package Manager
+    - [Python Dasar](materi/topik4/materi_dasar_python.md)
+    - Object Oriented Programming
 5.  **Raspberry** :strawberry:
     - [Penjelasan Raspberry](materi/topik5/penjelasanraspi.md)
     - [Instalasi Raspbian](materi/topik5/installrasp.md)
@@ -36,7 +33,7 @@ roadmap untuk miniclass IOT WRI
     - Tips&Trik Keamanan
     - Komunikasi Serial
 7.  **Web Service**
-    - [Parsing Data dari JSON](materi/topik7/json.md) 
+    - [Parsing Data dari JSON](materi/topik7/json.md)
     - Pengenalan Web Service
     - Pengenalan Virtual Environment
     - Pengenalan Flask
