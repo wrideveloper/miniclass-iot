@@ -1,4 +1,4 @@
-#Variabel Python
+# Variabel Python
 
   ## Apa itu Variabel
 
@@ -21,3 +21,7 @@
   2. Karakter selanjutnya dapat berupa huruf,garis bawah/underscore atau angka
   3. Karakter pada nama variabel bersifat sensitif (case-sensitif). Yang artinya
      huruf kecil dan huruf besar dibedakan
+
+  ## Note
+
+  untuk source code ada di file variabel.ipynb
