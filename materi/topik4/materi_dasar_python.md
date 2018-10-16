@@ -3,4 +3,4 @@
 
 
 1.  **Variabel**
-    - [Penjelasan Variabel](materi/topik4/variabel/variabel.md)
+    - [Penjelasan Variabel](variabel/variabel.md)
