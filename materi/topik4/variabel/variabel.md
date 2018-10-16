@@ -24,4 +24,4 @@
 
   ## Note
 
-  untuk source code ada di file variabel.ipynb
+  untuk source code ada di file variabel.ipynb di folder resource
