@@ -5,5 +5,6 @@
 1.  **Variabel**
     - [Penjelasan Variabel](variabel/variabel.md)
 
-2.  **List**
+2.  **Struktur Data**
     - [Penjelasan List](list/list.md)
+    - [Penjelasan Tuple](tuple/tuple.md)
