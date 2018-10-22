@@ -8,3 +8,4 @@
 2.  **Struktur Data**
     - [Penjelasan List](list/list.md)
     - [Penjelasan Tuple](tuple/tuple.md)
+    - [Penjelasan Dictionary](dictionary/penjelasan.md)
