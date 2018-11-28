@@ -5,8 +5,8 @@ roadmap untuk miniclass IOT WRI
 1.  **Pengenalan IOT**
     - [Penjelasan IOT](materi/topik1/penjelasan-iot.md)
 2.  **Dasar Jaringan Komputer**
-    - Internet Protocol
-    - Subnetting
+    - [Internet Protocol](materi/topik2/internet-protokol.md)
+    - [Subnetting](materi/topik2/apa-itu-subnetting.md)
     - Scanning Internet Protocol
     - Server SSH VNC dan FTP
 3.  **Dasar Linux**
@@ -29,11 +29,16 @@ roadmap untuk miniclass IOT WRI
     - Object Oriented Programming
     - [Python Module](materi/topik4/importing-module.md)
     - Package Manager
+    - [Python Dasar](materi/topik4/materi_dasar_python.md)
+    - Object Oriented Programming
 5.  **Raspberry** :strawberry:
     - Penjelasan Raspberry
     - Mengoneksikan Raspberry ke PC
     - Pengenalan GPIO
     - Penggunaan Sensor
-6.  **Elektro** :electric_plug:
+6.  **Dasar Elektronika** :electric_plug:
+    - [Pengenalan Komponen Elektronika](materi/topik6/pengenalan-komponen2-elektronik.md)
+    - Tips & Trik Keamanan
+    - Komunikasi Serial
 7.  **Membuat Proyek Raspberry Sederhana** :strawberry:
 8.  **Web Service**
