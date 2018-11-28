@@ -19,32 +19,21 @@ roadmap untuk miniclass IOT WRI
     - [Pembuatan Server SSH VNC dan FTP](materi/topik3/pembuatan-server-ssh-vnc-ftp.md)
 4.  **Pemrograman Python** :snake:
     - [Penjelasan Python](materi/topik4/intro-python.md)
-    - [Syntax Dasar Python](materi/topik4/syntax-python.md)
+    - Variabel
+    - Input dan Output
+    - Operator
+    - Percabangan
+    - Perulangan
     - [Struktur Data Pada Python](materi/topik4/struktur-data-pada-python.md)
-    - [Importing Module](materi/topik4/importing-module.md)
-    - Exporting Module
+    - Fungsi
     - Object Oriented Programming
+    - [Python Module](materi/topik4/importing-module.md)
     - Package Manager
 5.  **Raspberry** :strawberry:
     - Penjelasan Raspberry
-    - Instalasi Raspian
-    - Mengoneksikan Raspian ke PC
+    - Mengoneksikan Raspberry ke PC
     - Pengenalan GPIO
-    - Membaca Sensor
+    - Penggunaan Sensor
 6.  **Elektro** :electric_plug:
-    - Dasar Elektro
-    - I2C
-    - PWM
-7.  **Web Service**
-    - Pengenalan Web Service
-    - Pengenalan Virtual Environment
-    - Pengenalan Flask
-    - Function Decorator
-    - Membuat Web Service dengan Flask
-    - Mengoneksikan Raspberry dengan Web Service
-8.  **Database**
-    - Pengenalan Database
-    - Pengenalan Syntax SQL
-    - Mengoneksikan Python dan Database
-9.  **Impelementasi IOT**
-    - To be added...
+7.  **Membuat Proyek Raspberry Sederhana** :strawberry:
+8.  **Web Service**
