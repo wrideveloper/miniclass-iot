@@ -9,8 +9,8 @@ Output adalah suatu perintah untuk memberikan atau menampilkan sebuah nilai atau
 ### Penggunaan Input dan Output
 
 input dalam python digunakan untuk mendapatkan sebuah nilai dari user.
-  
- nilai = input("Masukan nilai : ")
+
+        nilai = input("Masukan nilai : ")
 
 dalam kasus tersebut variabel nilai akan berisi masukan dari user dan secara default bertipe data String.
 
