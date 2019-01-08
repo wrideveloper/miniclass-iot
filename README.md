@@ -19,8 +19,8 @@ roadmap untuk miniclass IOT WRI
     - [Pembuatan Server SSH VNC dan FTP](materi/topik3/pembuatan-server-ssh-vnc-ftp.md)
 4.  **Pemrograman Python** :snake:
     - [Penjelasan Python](materi/topik4/intro-python.md)
-    - Variabel
-    - Input dan Output
+    - [Variabel](materi/topik4/variabel/variabel.md)
+    - [Input dan Output](materi/topik4/input-output/io.md)
     - Operator
     - Percabangan
     - Perulangan
