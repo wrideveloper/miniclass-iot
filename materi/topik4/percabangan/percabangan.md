@@ -9,15 +9,18 @@ Percabangan adalah suatu kondisi dimana program akan menjalankan statement berda
 Percabangan menggunakan syntax `if` dan `else` sebagai pemisah antara statement bernilai `true` dan `false`
 contoh :
 
+```python
         a = 5
         if(a < 10):
             ...statement true...
         else:
             ...statement false...
+```
 
 dalam contoh diatas ada 2 jenis statement, apabila membutuhkan kondisi dimana nilai a berada diantara suatu nilai, maka kondisi bisa menjadi lebih dari 2 statement menggunakan `elif`
 contoh :
 
+```python
         a = 5
         if(a < 10):
             ...statement true...
@@ -25,6 +28,7 @@ contoh :
             ...statement true with other condition...
         else:
             ...statement false...
+```
 
 jadi penggunaan `elif` dapat memberikan syarat baru untuk mendapatkan kondisi `true` sebuah nilai variabel
 
