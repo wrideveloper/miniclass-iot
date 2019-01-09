@@ -28,7 +28,7 @@ roadmap untuk miniclass IOT WRI
     - Fungsi
     - Object Oriented Programming
     - [Python Module](materi/topik4/importing-module.md)
-    - Package Manager
+    - [Package Manager](materi/topik4/package-manager.md)
 5.  **Raspberry** :strawberry:
     - Penjelasan Raspberry
     - Mengoneksikan Raspberry ke PC
