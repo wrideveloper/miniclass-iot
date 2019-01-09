@@ -4,7 +4,16 @@ PIP merupakan package management system yang digunakan untuk mengunduh dan menge
 ## Cara menggunakan ##
 
 1. Melihat versi pip yang terinstall
-![Melihat Version](1.png)
+```pip --version```
 
 2. Melihat package yang telah terinstall
-![Melihat install](2.png)
+```pip freeze```
+
+3. Install package dengan pip
+```pip install [packagename]```
+
+4. Upgrade version package
+```pip install --upgrade [packagename]```
+
+5. Uninstall package
+```pip uninstall [packagename]```
