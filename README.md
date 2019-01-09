@@ -25,7 +25,7 @@ roadmap untuk miniclass IOT WRI
     - Percabangan
     - Perulangan
     - [Struktur Data Pada Python](materi/topik4/struktur-data-pada-python.md)
-    - Fungsi
+    - [Fungsi](materi/topik4/fungsi.md)
     - Object Oriented Programming
     - [Python Module](materi/topik4/importing-module.md)
     - [Package Manager](materi/topik4/package-manager.md)
