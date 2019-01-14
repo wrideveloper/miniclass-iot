@@ -21,7 +21,7 @@ roadmap untuk miniclass IOT WRI
     - [Penjelasan Python](materi/topik4/intro-python.md)
     - [Variabel](materi/topik4/variabel.md)
     - [Input dan Output](materi/topik4/io.md)
-    - Operator
+    - [Operator](materi/topik4/operator.md)
     - [Percabangan](materi/topik4/percabangan.md)
     - Perulangan
     - [Struktur Data Pada Python](materi/topik4/struktur-data-pada-python.md)
