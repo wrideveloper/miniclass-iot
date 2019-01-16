@@ -32,7 +32,7 @@ roadmap untuk miniclass IOT WRI
 5.  **Raspberry** :strawberry:
     - Penjelasan Raspberry
     - Mengoneksikan Raspberry ke PC
-    - Pengenalan GPIO
+    - [Pengenalan GPIO](materi/topik5/gpio.md)
     - Penggunaan Sensor
 6.  **Dasar Elektronika** :electric_plug:
     - [Pengenalan Komponen Elektronika](materi/topik6/pengenalan-komponen2-elektronik.md)
