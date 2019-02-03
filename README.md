@@ -31,7 +31,7 @@ roadmap untuk miniclass IOT WRI
     - [Package Manager](materi/topik4/package-manager.md)
 5.  **Raspberry** :strawberry:
     - [Penjelasan Raspberry](materi/topik5/penjelasan-raspi)
-    - [Mengoneksikan Raspberry ke PC](https://pythonprogramming.net/remote-access-raspberry-pi-tutorials/)
+    - [Mengoneksikan Raspberry ke PC](materi/topik5/koneksi-raspi.md)
     - [Pengenalan GPIO](materi/topik5/gpio.md)
     - [Penggunaan Sensor](https://tutorials-raspberrypi.com/raspberry-pi-sensors-overview-50-important-components/)
     - Penerapan OOP
