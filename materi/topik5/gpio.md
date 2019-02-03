@@ -26,7 +26,7 @@ Dengan cara ini kita bisa langsung menentukan nomor pin GPIO yang akan kita guna
 
 Kita dapat mengontrol penggunaan GPIO pada raspberry menggunakan bahasa pemrograman python
 
-### Menginstall Package GPIO untuk Python
+### 1. Menginstall Package GPIO untuk Python
 
 Sebelum kita dapat menggunakan GPIO pada python, kita perlu menginstall package `python-rpi.gpio` terlebih dahulu
 
@@ -34,7 +34,7 @@ Sebelum kita dapat menggunakan GPIO pada python, kita perlu menginstall package 
 sudo apt install python-rpi.gpio
 ```
 
-### Menentukan Mode Pemilihan GPIO
+### 2. Menentukan Mode Pemilihan GPIO
 
 Sebelumnya kita sudah tau bahwa terdapat dua cara untuk memilih GPIO, yaitu berdasarkan urutan pin pada board dan berdasarkan nomor gpio itu sendiri
 
@@ -45,7 +45,7 @@ GPIO.setmode(GPIO.BOARD) # Memilih GPIO berdasarkan urutan pin pada board
 GPIO.setmode(GPIO.BCM) # Memilih GPIO berdasarkan nomor GPIO
 ```
 
-### Menentukan Fungsi GPIO
+### 3. Menentukan Fungsi GPIO
 
 Setelah menentukan mode pemilihan gpio, maka kita bisa langsung menentukan gpio mana yang akan kita gunakan sekaligus fungsi dari gpio tersebut apakah sebagai input atau sebagai output
 
@@ -56,7 +56,7 @@ GPIO.setup(15, GPIO.IN) # menggunakan pin sebagai input
 
 Tips untuk menentukan suatu pin apakah digunakan sebagai input atau output adalah berdasarkan alat apa yang akan ditancapkan pada pin tersebut, apabila alat tersebut berupa alat output seperti lampu, LCD, dan lain lain maka gunakanlah pin tersebut sebagai output, sebaliknya apabila alat tersebut berupa sensor seperti sensor suara, jarak, cahaya, atau tombol maka gunakan pin tersebut sebagai input
 
-### Menulis dan Membaca Nilai Pada GPIO
+### 4. Menulis dan Membaca Nilai Pada GPIO
 
 **Cara menulis suatu nilai pada GPIO**
 
