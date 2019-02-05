@@ -14,11 +14,11 @@ Selain pada Raspberry, GPIO ini juga dimiliki oleh Arduino, Orange Pi, ESP, dan 
 
 Sebelum kita belajar bagaimana cara mengontrol raspberry dengan python, kita perlu tau bagaimana cara memilih gpio yang akan kita gunakan, terdapat dua cara untuk memilih nomor gpio, yaitu :
 
-### Berdasarkan Nomor Board
+### 1. Berdasarkan Nomor Board
 
 Apabila kita menggunakan mode ini maka kita dapat memilih gpio berdasarkan urutan pin yang ada pada board raspberry, misalnya apabila kita memilih nomor 8 maka kita akan memilih GPIO 14
 
-### Berdasarkan Nomor Pin GPIO (BCM)
+### 2. Berdasarkan Nomor Pin GPIO (BCM)
 
 Dengan cara ini kita bisa langsung menentukan nomor pin GPIO yang akan kita gunakan, misalnya kita memilih nomor 24 maka kita akan memilih GPIO 24
 
@@ -80,3 +80,5 @@ print(GPIO.input(15)) # true or false
 Untuk membaca nilai pada suatu pin, maka kita perlu mengeset mode pin tersebut sebagai input, kemudian kita bisa membaca nilai dari pin tersebut menggunakan `GPIO.input`
 
 Apabila pin tersebut ditancapkan tombol, maka pin akan bernilai true apabila tombol ditekan, sedangkan false apabila tombol dilepas
+
+https://raspberrypihq.com/use-a-push-button-with-raspberry-pi-gpio/
