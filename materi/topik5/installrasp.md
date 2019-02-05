@@ -1,8 +1,7 @@
 # Instalasi Raspbian
+
 ![Gambar](img/raspbi.jpeg)
 
-Installasi raspbian sama halnya kalian menginstall linux pada pc kalian, cuma disin bedanya kalian menggunakan virtual untuk melakaukan installasi.
+Installasi raspbian sama halnya kalian menginstall linux pada pc, hanya saja disini bedanya dengan menggunakan virtual untuk melakukan installasi.
 
-- Kalian bisa mengikuti tutorila dibawah ini untuk melakukan installasi raspbian.
-   ````asd
-  https://pythonprogramming.net/introduction-raspberry-pi-tutorials/
+https://pythonprogramming.net/introduction-raspberry-pi-tutorials/

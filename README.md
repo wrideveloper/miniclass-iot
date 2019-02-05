@@ -34,7 +34,7 @@ roadmap untuk miniclass IOT WRI
     - [Mengoneksikan Raspberry ke PC](materi/topik5/koneksi-raspi.md)
     - [Pengenalan GPIO](materi/topik5/gpio.md)
     - [Penggunaan Sensor](https://tutorials-raspberrypi.com/raspberry-pi-sensors-overview-50-important-components/)
-    - Penerapan OOP
+    - [Penerapan OOP](materi/topik5/oop-raspberry.md)
 6.  **Dasar Elektronika** :electric_plug:
     - [Pengenalan Komponen Elektronika](materi/topik6/pengenalan-komponen2-elektronik.md)
     - Tips & Trik Keamanan
