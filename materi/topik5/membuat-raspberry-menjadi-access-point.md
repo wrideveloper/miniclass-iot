@@ -2,15 +2,7 @@
 
 Pada tutorial ini kita akan belajar bagaimana cara membuat raspberry menjadi access point untuk mempermudah kita menghubungkan komputer dan raspberry tanpa perlu menggunakan kabel LAN
 
-## 1. Install Server DHCP
-
-Hal pertama yang harus kita lakukan adalah menginstall server DHCP, DHCP merupakan protokol yang digunakan untuk memberikan IP ke client yang terkoneksi pada suatu jaringan
-
-```bash
-sudo apt install dnsmasq
-```
-
-## 2. Konfigurasi IP Statis Pada Interface wlan0
+## 1. Konfigurasi IP Statis Pada Interface wlan0
 
 Sebelum membuat server DHCP, kita perlu memberikan ip statis pada interface wlan0 raspberry, ketikkan perintah berikut untuk mengubah file konfigurasinya
 
@@ -22,7 +14,16 @@ misalnya kita ingin memberikan ip statis 192.168.1.1 pada interface wlan0, maka 
 
 ```bash
 interface wlan0
-static ip_address=192.168.1.1/24
+    static ip_address=192.168.4.1/24
+    nohook wpa_supplicant
+```
+
+## 2. Install Server DHCP
+
+DHCP merupakan protokol yang digunakan untuk memberikan IP ke client yang terkoneksi pada suatu jaringan
+
+```bash
+sudo apt install dnsmasq
 ```
 
 ## 3. Konfigurasi Server DHCP
@@ -33,11 +34,11 @@ Setelah itu kita dapat mengkonfigurasi server DHCP dengan menentukan berapa rang
 sudo nano /etc/dnsmasq.conf
 ```
 
-misalnya kita ingin memberikan range IP antara 192.168.1.2 hingga 192.168.1.10, maka ketikkan perintah berikut ke dalam file `dnsmasq.conf`
+misalnya kita ingin memberikan range IP antara 192.168.1.2 hingga 192.168.1.20, maka ketikkan perintah berikut ke dalam file `dnsmasq.conf`
 
 ```bash
 interface=wlan0
-  dhcp-range=192.168.1.2,192.168.1.10,255.255.255.0,24h
+  dhcp-range=192.168.1.2,192.168.1.20,255.255.255.0,24h
 ```
 
 ## 4. Install Hostapd
@@ -60,7 +61,8 @@ Kemudian ketikkan perintah berikut ke dalam file `hostapd.conf`
 
 ```bash
 interface=wlan0
-bridge=br0
+driver=nl80211
+ssid=NETWORK_NAME
 hw_mode=g
 channel=7
 wmm_enabled=0
@@ -68,11 +70,10 @@ macaddr_acl=0
 auth_algs=1
 ignore_broadcast_ssid=0
 wpa=2
+wpa_passphrase=PASSWORD
 wpa_key_mgmt=WPA-PSK
 wpa_pairwise=TKIP
 rsn_pairwise=CCMP
-ssid=NETWORK_NAME
-wpa_passphrase=PASSWORD
 ```
 
 silahkan ubah **NETWORK_NAME** dan **PASSWORD** dengan nama access point dan password access point
