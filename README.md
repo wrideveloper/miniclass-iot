@@ -33,7 +33,8 @@ roadmap untuk miniclass IOT WRI
     - [Membuat Raspberry Menjadi Access Point](materi/topik5/membuat-raspberry-menjadi-access-point.md)
     - [Pengenalan GPIO](materi/topik5/gpio.md)
     - [Penerapan OOP](materi/topik5/oop-raspberry.md)
-    - [Penggunaan Sensor Analog](https://tutorials-raspberrypi.com/raspberry-pi-sensors-overview-50-important-components/)
+    - [Sensor Digital](materi/topik5/sensor-digital.md)
+    - [Sensor Analog](materi/topik5/sensor-analog.md)
 6.  **Dasar Elektronika** :electric_plug:
     - [Pengenalan Komponen Elektronika](materi/topik6/pengenalan-komponen2-elektronik.md)
     - Tips & Trik Keamanan
