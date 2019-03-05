@@ -39,5 +39,10 @@ roadmap untuk miniclass IOT WRI
     - [Pengenalan Komponen Elektronika](materi/topik6/pengenalan-komponen2-elektronik.md)
     - Tips & Trik Keamanan
     - Komunikasi Serial
-7.  **Membuat Proyek Raspberry Sederhana** :strawberry:
-8.  **Web Service**
+7.  **Protokol Transfer Data** :signal_strength:
+    - Web Service
+    - Web Socket
+    - Messaging Queue
+8.  **Database**
+    - Relational Database
+    - Document Oriented Database
