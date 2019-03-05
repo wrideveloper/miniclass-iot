@@ -2,12 +2,12 @@
 
 roadmap untuk miniclass IOT WRI
 
-1.  **Pengenalan IOT**
+1.  **Pengenalan IOT** :satellite:
     - [Penjelasan IOT](materi/topik1/penjelasan-iot.md)
 2.  **Dasar Jaringan Komputer**
     - [Internet Protocol](materi/topik2/internet-protokol.md)
     - [Subnetting](materi/topik2/apa-itu-subnetting.md)
-3.  **Dasar Linux**
+3.  **Dasar Linux** :penguin:
     - [Penjelasan Linux](materi/topik3/penjelasan-linux.md)
     - [Penjelasan Distro Linux](materi/topik3/penjelasan-distro-linux.md)
     - [Penjelasan Desktop Environment](materi/topik3/penjelasan-desktop-environment.md)
@@ -27,6 +27,7 @@ roadmap untuk miniclass IOT WRI
     - [Object Oriented Programming](materi/topik4/oop.md)
     - [Python Module](materi/topik4/importing-module.md)
     - [Package Manager](materi/topik4/package-manager.md)
+    - [Virtual Environment](materi/topik4/virtual-env.md)
 5.  **Raspberry** :strawberry:
     - [Penjelasan Raspberry](materi/topik5/penjelasan-raspi.md)
     - [Mengoneksikan Raspberry ke PC](materi/topik5/koneksi-raspi.md)
