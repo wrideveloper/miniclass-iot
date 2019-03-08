@@ -18,11 +18,22 @@ Kita dapat membuat dan menggunakan virtual environment baru menggunakan package 
 apt install virtualenv
 ```
 
-### 2. Membuat Virtual Environment
+### 2. Membuat Folder Proyek
 
-Selanjutnya kita dapat membuat virtual environment baru menggunakan perintah berikut berdasarkan versi python yang ingin kita gunakan pada virtual environment tersebut
+Selanjutnya kita harus membuat folder proyek yang akan digunakan untuk meletakkan script - script python kita nantinya
 
 ```bash
+mkdir python-project
+```
+
+### 3. Membuat Virtual Environment
+
+Selanjutnya kita dapat membuat virtual environment baru di dalam folder proyek yang sudah kita buat
+
+```bash
+# masuk ke folder proyek
+cd python-project
+
 # python 2
 virtualenv env_name
 
@@ -30,21 +41,20 @@ virtualenv env_name
 virtualenv -p python3 env_name
 ```
 
-### 3. Mengaktifkan Virtual Environment
+Setelah perintah tersebut dijalankan maka folder `env_name` akan terbuat yang berisi virtual environment baru
+
+### 4. Mengaktifkan Virtual Environment
 
 Setelah membuat virtual environment baru maka kita harus mengaktifkannya dengan menjalankan script `bin/active` yang ada pada folder virtual environment tersebut
 
 ```bash
-# masuk ke folder virtual environment
-cd env_name
-
 # menjalankan script
-source bin/active
+source env_name/bin/active
 ```
 
 Setelah menjalankan script `bin/active` maka virtual environment yang kita buat sudah aktif sehingga ketika kita menginstall package baru menggunakan `pip` maka package tersebut akan terinstall ke virtual environment tersebut
 
-### 4. Menonaktifkan Virtual Environment
+### 5. Menonaktifkan Virtual Environment
 
 Untuk menonaktifkan virtual environment kita dapat menggunakan perintah berikut
 

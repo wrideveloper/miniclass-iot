@@ -1,19 +1,20 @@
 # Package Manager
+
 PIP merupakan package management system yang digunakan untuk mengunduh dan mengelola package pada Python. Terdapat banyak seklai package yang bisa kita lihat [di sini](https://pypi.org)
 
-## Cara menggunakan ##
+## Cara menggunakan
 
 1. Melihat versi pip yang terinstall
-```pip --version```
+   `pip --version`
 
 2. Melihat package yang telah terinstall
-```pip freeze```
+   `pip freeze`
 
 3. Install package dengan pip
-```pip install [packagename]```
+   `pip install [packagename]`
 
 4. Upgrade version package
-```pip install --upgrade [packagename]```
+   `pip install --upgrade [packagename]`
 
 5. Uninstall package
-```pip uninstall [packagename]```
+   `pip uninstall [packagename]`
