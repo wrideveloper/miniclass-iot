@@ -12,6 +12,8 @@ Flask merupakan salah satu framework web yang dibangun menggunakan bahasa pemrog
 
 ## Membuat Web Service dengan Flask
 
+Berikut merupakan langkah - langkah untuk membuat web service menggunakan flask
+
 ### 1. Menginstall Flask
 
 Pertama kita harus menginstall package `flask` terlebih dahulu sebelum membuat web service
@@ -122,3 +124,44 @@ Setelah perintah tersebut dijalankan maka kita dapat menggunakan web service ter
 | /biodata       | POST   | store   | Membuat biodata baru                  |
 | /biodata/index | PUT    | update  | Mengubah biodata berdasarkan index    |
 | /biodata/index | DELETE | destroy | Menghapus biodata berdasarkan index   |
+
+## Mengkonsumsi Web Service
+
+Setelah membuat web service sekarang kita akan belajar bagaimana cara mengkonsumsi web service menggunakan package `requests`
+
+### 1. Menginstall Requests
+
+```bash
+pip install requests
+```
+
+### 2. Menggunakan Requests
+
+```bash
+# client.py
+
+import requests
+
+# mengambil semua biodata
+biodata = requests.get("http://localhost:5000/biodata")
+print(biodata.json())
+
+# mengambil biodata berdasarkan index
+biodata = requests.get("http://localhost:5000/biodata/1")
+print(biodata.json())
+
+# menambahkan biodata baru
+requests.post("http://localhost:5000/biodata", json={
+  "nama": "halimah",
+  "alamat": "malang"
+})
+
+# mengubah biodata berdasarkan index
+requests.put("http://localhost:5000/biodata/1", json={
+  "nama": "aisyah",
+  "alamat": "probolinggo"
+})
+
+# menghapus biodata berdasarkan index
+requests.delete("http://localhost:5000/biodata/1")
+```
