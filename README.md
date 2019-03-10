@@ -42,7 +42,7 @@ roadmap untuk miniclass IOT WRI
     - Komunikasi Serial
 7.  **Protokol Transfer Data** :signal_strength:
     - [Web Service](materi/topik7/web-service.md)
-    - Web Socket
+    - [Web Socket](materi/topik7/web-socket.md)
     - Messaging Queue
 8.  **Database**
     - Relational Database
