@@ -1,4 +1,4 @@
-# **Python Module**
+# Module
 
 <img src="module.png" height="150">
 
