@@ -49,7 +49,7 @@ Setelah membuat virtual environment baru maka kita harus mengaktifkannya dengan 
 
 ```bash
 # menjalankan script
-source env_name/bin/active
+source env_name/bin/activate
 ```
 
 Setelah menjalankan script `bin/active` maka virtual environment yang kita buat sudah aktif sehingga ketika kita menginstall package baru menggunakan `pip` maka package tersebut akan terinstall ke virtual environment tersebut
@@ -59,7 +59,7 @@ Setelah menjalankan script `bin/active` maka virtual environment yang kita buat 
 Untuk menonaktifkan virtual environment kita dapat menggunakan perintah berikut
 
 ```bash
-deactive
+deactivate
 ```
 
 Setelah perintah tersebut dijalankan maka virtual environment kita tidak akan aktif sehingga setiap kali kita menginstall package baru menggunakan `pip` maka package tersebut akan terinstall ke sistem OS kita
