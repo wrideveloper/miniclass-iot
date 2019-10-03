@@ -3,48 +3,54 @@
 roadmap untuk miniclass IOT WRI
 
 1.  **Pengenalan IOT** :satellite:
-    - [Penjelasan IOT](materi/topik1/penjelasan-iot.md)
+    - :books: [Penjelasan IOT](materi/iot/penjelasan-iot.md)
 2.  **Dasar Jaringan Komputer**
-    - [Internet Protocol](materi/topik2/internet-protokol.md)
-    - [Subnetting](materi/topik2/apa-itu-subnetting.md)
+    - :books: [Internet Protocol](materi/jaringan/internet-protokol.md)
 3.  **Dasar Linux** :penguin:
-    - [Penjelasan Linux](materi/topik3/penjelasan-linux.md)
-    - [Distro Linux](materi/topik3/distro-linux.md)
-    - [Desktop Environment](materi/topik3/desktop-environment.md)
-    - [Instalasi Linux Ubuntu](materi/topik3/instalasi.md)
-    - [Perintah Dasar](materi/topik3/perintah-dasar.md)
-    - [Manajemen Paket](materi/topik3/manajemen-paket.md)
-    - [Server SSH VNC FTP](materi/topik3/server-ssh-vnc-ftp.md)
+    - :books: [Penjelasan Linux](materi/linux/penjelasan-linux.md)
+    - :books: [Distro Linux](materi/linux/distro-linux.md)
+    - :books: [Desktop Environment](materi/linux/desktop-environment.md)
+    - :books: [Perintah Dasar](materi/linux/perintah-dasar.md)
+    - :books: [Manajemen Paket](materi/linux/manajemen-paket.md)
+    - :books: [Server SSH VNC FTP](materi/linux/server-ssh-vnc-ftp.md)
 4.  **Pemrograman Python** :snake:
-    - [Penjelasan Python](materi/topik4/intro-python.md)
-    - [Variabel](materi/topik4/variabel.md)
-    - [Input dan Output](materi/topik4/io.md)
-    - [Operator](materi/topik4/operator.md)
-    - [Percabangan](materi/topik4/percabangan.md)
-    - [Perulangan](materi/topik4/perulangan.md)
-    - [Struktur Data](materi/topik4/struktur-data.md)
-    - [Fungsi](materi/topik4/fungsi.md)
-    - [Object Oriented Programming](materi/topik4/oop.md)
-    - [Module](materi/topik4/module.md)
-    - [Package Manager](materi/topik4/package-manager.md)
-    - [Virtual Environment](materi/topik4/virtual-env.md)
-5.  **Raspberry** :strawberry:
-    - [Penjelasan Raspberry](materi/topik5/penjelasan-raspi.md)
-    - [Mengoneksikan Raspberry ke PC](materi/topik5/koneksi-raspi.md)
-    - [Membuat Raspberry Menjadi Access Point](materi/topik5/membuat-raspberry-menjadi-access-point.md)
-    - [GPIO](materi/topik5/gpio.md)
-    - [GPIO Input Handling](materi/topik5/gpio-input-handling.md)
-    - [Penerapan OOP](materi/topik5/oop-raspberry.md)
-    - [Sensor Digital](materi/topik5/sensor-digital.md)
-    - [Sensor Analog](materi/topik5/sensor-analog.md)
-6.  **Dasar Elektronika** :electric_plug:
-    - [Pengenalan Komponen Elektronika](materi/topik6/pengenalan-komponen2-elektronik.md)
-    - Tips & Trik Keamanan
-    - Komunikasi Serial
-7.  **Protokol Transfer Data** :signal_strength:
-    - [Web Service](materi/topik7/web-service.md)
-    - [Web Socket](materi/topik7/web-socket.md)
-    - Messaging Queue
-8.  **Database**
-    - Relational Database
-    - Document Oriented Database
+    - :books: [Penjelasan Python](materi/python/intro-python.md)
+    - :books: [Variabel](materi/python/variabel.md)
+    - :books: [Input dan Output](materi/python/io.md)
+    - :books: [Operator](materi/python/operator.md)
+    - :books: [Percabangan](materi/python/percabangan.md)
+    - :books: [Perulangan](materi/python/perulangan.md)
+    - :books: [Struktur Data](materi/python/struktur-data.md)
+    - :books: [Fungsi](materi/python/fungsi.md)
+    - :books: [Module](materi/python/module.md)
+    - :books: [Package Manager](materi/python/package-manager.md)
+    - :books: [Virtual Environment](materi/python/virtual-env.md)
+    - :books: [Object Oriented Programming](materi/python/oop.md)
+5.  **Microcontroller**
+    - :books: Penjelasan Microcontroller
+    - :books: Penjelasan Node MCU
+    - :books: Mengoneksikan Node MCU ke PC
+    - :books: Sensor Digital
+    - :books: Sensor Analog
+    - :books: Pulse with Modulation
+    - :computer: Membuat Alat untuk Membaca Sensor Sederhana
+6.  **IOT Gateway** :strawberry:
+    - :books: Penjelasan IOT Gateway
+    - :books: [Penjelasan Raspberry](materi/iot-gateway/penjelasan-raspi.md)
+    - :books: [Mengoneksikan Raspberry ke PC](materi/iot-gateway/koneksi-raspi.md)
+        <!-- - :books: [GPIO](materi/iot-gateway/gpio.md) -->
+      <!-- - :books: [GPIO Input Handling](materi/iot-gateway/gpio-input-handling.md) -->
+      <!-- - :books: [Penerapan OOP](materi/iot-gateway/oop-raspberry.md) -->
+      <!-- - :books: [Sensor Digital](materi/iot-gateway/sensor-digital.md) -->
+      <!-- - :books: [Sensor Analog](materi/iot-gateway/sensor-analog.md) -->
+    - :books: Mengirim Data dari Node MCU ke Raspberry
+    - :books: Mengirim Data dari Raspberry ke Server
+7.  **Dasar Elektronika** :electric_plug:
+    - :books: [Pengenalan Komponen Elektronika](materi/elektronika/pengenalan-komponen2-elektronik.md)
+8.  **Web Backend** :signal_strength:
+    - :books: [Web Service](materi/web-backend/web-service.md)
+    - :books: [Web Socket](materi/web-backend/web-socket.md)
+    - :computer: Membuat Perangkat IOT yang Terintegrasi ke Backend
+9.  **Database**
+    - :books: Relational Database
+    - :books: Document Oriented Database
