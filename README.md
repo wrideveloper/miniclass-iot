@@ -3,17 +3,20 @@
 roadmap untuk miniclass IOT WRI
 
 1.  **Pengenalan IOT** :satellite:
+
     - :books: [Penjelasan IOT](materi/iot/penjelasan-iot.md)
-2.  **Dasar Jaringan Komputer**
-    - :books: [Internet Protocol](materi/jaringan/internet-protokol.md)
-3.  **Dasar Linux** :penguin:
+
+2.  **Dasar Linux** :penguin:
+
     - :books: [Penjelasan Linux](materi/linux/penjelasan-linux.md)
     - :books: [Distro Linux](materi/linux/distro-linux.md)
     - :books: [Desktop Environment](materi/linux/desktop-environment.md)
     - :books: [Perintah Dasar](materi/linux/perintah-dasar.md)
     - :books: [Manajemen Paket](materi/linux/manajemen-paket.md)
     - :books: [Server SSH VNC FTP](materi/linux/server-ssh-vnc-ftp.md)
-4.  **Pemrograman Python** :snake:
+
+3.  **Pemrograman Python** :snake:
+
     - :books: [Penjelasan Python](materi/python/intro-python.md)
     - :books: [Variabel](materi/python/variabel.md)
     - :books: [Input dan Output](materi/python/io.md)
@@ -26,7 +29,9 @@ roadmap untuk miniclass IOT WRI
     - :books: [Package Manager](materi/python/package-manager.md)
     - :books: [Virtual Environment](materi/python/virtual-env.md)
     - :books: [Object Oriented Programming](materi/python/oop.md)
-5.  **Microcontroller**
+
+4.  **Microcontroller**
+
     - :books: Penjelasan Microcontroller
     - :books: Penjelasan Node MCU
     - :books: Mengoneksikan Node MCU ke PC
@@ -34,7 +39,9 @@ roadmap untuk miniclass IOT WRI
     - :books: Sensor Analog
     - :books: Pulse with Modulation
     - :computer: Membuat Alat untuk Membaca Sensor Sederhana
-6.  **IOT Gateway** :strawberry:
+
+5.  **IOT Gateway** :strawberry:
+
     - :books: Penjelasan IOT Gateway
     - :books: [Penjelasan Raspberry](materi/iot-gateway/penjelasan-raspi.md)
     - :books: [Mengoneksikan Raspberry ke PC](materi/iot-gateway/koneksi-raspi.md)
@@ -45,12 +52,17 @@ roadmap untuk miniclass IOT WRI
       <!-- - :books: [Sensor Analog](materi/iot-gateway/sensor-analog.md) -->
     - :books: Mengirim Data dari Node MCU ke Raspberry
     - :books: Mengirim Data dari Raspberry ke Server
-7.  **Dasar Elektronika** :electric_plug:
+
+6.  **Dasar Elektronika** :electric_plug:
+
     - :books: [Pengenalan Komponen Elektronika](materi/elektronika/pengenalan-komponen2-elektronik.md)
-8.  **Web Backend** :signal_strength:
+
+7.  **Web Backend** :signal_strength:
+
     - :books: [Web Service](materi/web-backend/web-service.md)
     - :books: [Web Socket](materi/web-backend/web-socket.md)
     - :computer: Membuat Perangkat IOT yang Terintegrasi ke Backend
-9.  **Database**
+
+8.  **Database**
     - :books: Relational Database
     - :books: Document Oriented Database

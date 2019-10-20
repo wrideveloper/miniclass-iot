@@ -1,6 +1,6 @@
 # Manajemen Paket Pada Linux
 
-![Gambar](img/package-management1.png)
+<img src="img/package-management1.png" width="300" />
 
 ## Format Paket
 
