@@ -58,11 +58,13 @@ roadmap untuk miniclass IOT WRI
 
     - :books: [Pengenalan Komponen Elektronika](materi/elektronika/pengenalan-komponen2-elektronik.md)
 
-7.  **Web Backend** :signal_strength:
+7.  **Web Service** :signal_strength:
 
-    - :books: [Web Service](materi/web-backend/web-service.md)
-    - :books: [Web Socket](materi/web-backend/web-socket.md)
-    - :computer: Membuat Perangkat IOT yang Terintegrasi ke Backend
+    - :books: [Penjelasan Web Service](materi/web-service/penjelasan-web-service.md)
+    - :books: [HTTP](materi/web-service/http.md)
+    - :books: [Socket](materi/web-service/socket.md)
+    - :books: Message Queue
+    - :computer: Membuat Perangkat IOT yang Terintegrasi ke Web Service
 
 8.  **Database**
     - :books: Relational Database
