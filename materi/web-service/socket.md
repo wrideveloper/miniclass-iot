@@ -1,14 +1,14 @@
-# Web Socket
+# Socket
 
 <img src="./websocket.jpg" width="600" />
 
-## Penjelasan Web Socket
+## Penjelasan Socket
 
-Web socket merupakan protokol komunikasi baru yang diimplementasikan ke web server dan client. Setelah client dan server terkoneksi maka koneksi tersebut bersifat permanen dan keduanya dapat saling mengirim data secara dua arah, inilah yang membedakan protokol HTTP dengan web socket. Dalam dunia IOT, web socket sangat direkomendasikan karena dapat mengirimkan data secara realtime.
+Socket merupakan protokol komunikasi baru yang diimplementasikan ke web server dan client. Setelah client dan server terkoneksi maka koneksi tersebut bersifat permanen dan keduanya dapat saling mengirim data secara dua arah, inilah yang membedakan protokol HTTP dengan web socket. Dalam dunia IOT, web socket sangat direkomendasikan karena dapat mengirimkan data secara realtime.
 
-## Membuat Web Socket
+## Membuat Socket
 
-Disini kita akan membuat web socket sederhana menggunakan socket io
+Disini kita akan membuat socket sederhana menggunakan socket io
 
 ### 1. Menginstall Socket IO
 
