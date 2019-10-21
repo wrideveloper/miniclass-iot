@@ -5,6 +5,7 @@ roadmap untuk miniclass IOT WRI
 1.  **Pengenalan IOT** :satellite:
 
     - :books: [Penjelasan IOT](materi/iot/penjelasan-iot.md)
+    - :books: [Arsitektur IOT](materi/iot/arsitektur-iot.md)
 
 2.  **Dasar Linux** :penguin:
 
