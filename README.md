@@ -30,6 +30,7 @@ roadmap untuk miniclass IOT WRI
     - :books: [Package Manager](materi/python/package-manager.md)
     - :books: [Virtual Environment](materi/python/virtual-env.md)
     - :books: [Object Oriented Programming](materi/python/oop.md)
+    - :books: [Full Materi Python](materi/python/FullMateri/fullmateri.md)
 
 4.  **Microcontroller**
 
