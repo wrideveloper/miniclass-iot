@@ -2,42 +2,102 @@
 
 <img src="module.png" height="150">
 
-## Pengertian Module
+## 1. Pengertian Module
 
-**Module** merupakan kumpulan library yang bisa diimport ke script kita agar mempermudah pekerjaan yang sedang kita kerjakan
+**Module** merupakan kumpulan fungsi atau variable yang bisa diimport ke script kita agar mempermudah pekerjaan yang sedang kita kerjakan
 
-### Cara Mengimport Module
+## 2. Cara Membuat Module
 
-**Mengimport seluruh module**
+Pertama, kita akan membuat sebuah module yang bertujuan untuk menghitung luas dan keliling persegi yang nantinya dapat digunakan berkali - kali pada file python manapun
 
-Pada python, kita dapat mengimport sebuah module menggunakan kata kunci `import`, misalnya :
+### 2.1 Membuat File Baru
 
-```
-import datetime
-```
+Buatlah sebuah file python baru yang terpisah dengan file utama, misalnya `persegi.py`, modul ini bertujuan untuk menyimpan fungsi untuk menghitung luas dan keliling persegi
 
-Misalnya pada contoh diatas kita mengimport module yang bernama `datetime`, module ini berguna untuk mengelola waktu dan tanggal, kita bisa mendapatkan waktu terkini serta operasi waktu yang lain.
+### 2.2 Membuat Fungsi
 
-**Import beberapa bagian dari module**
+Selanjutnya, kita akan menambahkan dua fungsi kedalam file `persegi.py`, dengan nama `hitungLuas` dan `hitungKeliling`
 
-Kita juga bisa mengimport hanya beberapa function dari suatu module, hal ini bisa kita lakukan dengan menggunakan kata kunci `from`, misalnya
+```python
+# persegi.py
 
-```
-from datetime import date
-```
+# hitung luas persegi
+def hitungLuas(sisi):
+  print(sisi * sisi)
 
-Pada contoh diatas kita hanya mengimport function `date` yang terdapat pada module `datetime`
-
-**Memberikan nama alias saat mengimport module**
-
-Kita juga bisa memberikan nama alias pada module yang kita import, caranya adalah menggunakan kata kunci `as`, misalnya :
-
-```
-import datetime as d
+# hitung keliling persegi
+def hitungKeliling(sisi):
+  print(sisi + sisi + sisi + sisi)
 ```
 
-Pada contoh diatas kita dapat mengakses module `datetime` dengan menggunakan variabel `d`, karena module `datetime` yang kita import sudah kita berikan nama alias menjadi `d`
+### 2.3 Selesai
 
-**Untuk lebih jelasnya tentang cara mengimport module, silahkan kunjungi link berikut :**
+Kita telah membuat sebuah module bernama `persegi`, sekarang kita dapat menggunakan fungsi `hitungLuas` dan `hitungKeliling` pada file manapun
 
-https://www.digitalocean.com/community/tutorials/how-to-import-modules-in-python-3
+## 3. Cara Mengimport Module
+
+Setelah kita membuat module, kita dapat mengimport fungsi dan variable yang ada pada module tersebut pada file python manapun, buatlah satu file python lagi yang bernama `main.py`, file ini akan kita gunakan untuk mengimport fungsi - fungsi yang ada pada file `persegi.py`
+
+### 3.1 Mengimport Seluruh Module
+
+Pertama, kita akan mengimport seluruh fungsi yang ada pada file `persegi.py`, caranya sebagai berikut
+
+```python
+# main.py
+
+# import semua fungsi yang ada pada file persegi
+import persegi
+
+# menentukan sisi persegi
+sisi = 5
+
+# menghitung luas persegi
+persegi.hitungLuas(sisi)
+
+# menghitung keliling persegi
+persegi.hitungKeliling(sisi)
+```
+
+### 3.2 Import Beberapa Bagian dari Module
+
+Kita juga bisa mengimport hanya beberapa fungsi dari suatu module, caranya sebagai berikut
+
+```python
+# main.py
+
+# import fungsi hitungLuas yang ada pada file persegi
+from persegi import hitungLuas
+
+# menentukan sisi persegi
+sisi = 5
+
+# menghitung luas persegi
+hitungLuas(sisi)
+```
+
+### 3.3 Memberikan Nama Alias Saat Mengimport Module
+
+Kita juga bisa memberikan nama alias pada module yang kita import, caranya sebagai berikut :
+
+```python
+# main.py
+
+# import semua fungsi yang ada pada file persegi
+import persegi as psg
+
+# menentukan sisi persegi
+sisi = 5
+
+# menghitung luas persegi
+psg.hitungLuas(sisi)
+
+# menghitung keliling persegi
+psg.hitungKeliling(sisi)
+```
+
+## 4. Built in Module
+
+Pada python, terdapat beberapa module yang sudah siap dipakai tanpa perlu kita buat terlebih dahulu, contohnya :
+
+1. `datetime` - menampilkan data waktu
+2. `request` - mengirim dan mengambil data dari backend
