@@ -33,8 +33,8 @@ roadmap untuk miniclass IOT WRI
 
 4.  **Microcontroller**
 
-    - :books: Penjelasan Microcontroller
-    - :books: Penjelasan Node MCU
+    - :books: [Microcontroller](materi/microcontroller/1-penjelasan-microcontroller.md)
+    - :books: [NodeMCU](materi/microcontroller/2-penjelasan-nodemcu.md)
     - :books: Mengoneksikan Node MCU ke PC
     - :books: Sensor Digital
     - :books: Sensor Analog
