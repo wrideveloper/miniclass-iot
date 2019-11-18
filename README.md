@@ -36,7 +36,8 @@ roadmap untuk miniclass IOT WRI
     - :books: [Microcontroller](materi/microcontroller/1-penjelasan-microcontroller.md)
     - :books: [NodeMCU](materi/microcontroller/2-penjelasan-nodemcu.md)
     - :books: [Micropython](materi/microcontroller/3-micropython.md)
-    - :books: [Mengakses NodeMCU](materi/microcontroller/4-mengakses-nodemcu.md)
+    - :books: [Mengakses Micropython](materi/microcontroller/4-mengakses-micropython.md)
+    - :books: Manipulasi Pin
     - :books: Sensor Digital
     - :books: Sensor Analog
     - :books: Pulse with Modulation
