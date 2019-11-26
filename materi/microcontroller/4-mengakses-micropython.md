@@ -1,71 +1,43 @@
 # Mengakses Micropython
 
-## 1. Mengakses Program Micropython
+## 1. Membuat Program Pada Micropython
 
-### 1.1 Jenis File Python Pada Micropython
+### 1.1 Install adafruit-ampy
 
-Terdapat dua jenis file python yang dapat kita ubah, yaitu : 
-
-1. `boot.py` - program yang dijalankan saat micropython melakukan booting
-2. `main.py` - program utama yang digunakan micropython
-
-### 1.2 Mengubah File Python Pada Micropython
-
-Lalu bagaimana jika kita ingin menulis program di komputer kita dan mengunggahnya sebagai file ***boot.py***  untuk proses booting atau bahkan sebagai file ***main.py*** untuk process utamanya.
-
-#### 1.2.1 Install amp-adafruit
-
-amp-adafruit merupakan program yang digunakan untuk mendownload dan mengupload file python pada micropython
+amp-adafruit merupakan program yang digunakan untuk mendownload dan mengupload file python pada nodemcu. Pertama install terlebih dahulu `adafruit-ampy` ini
 
 ```bash
-$ pip install ampy-adafruit
+$ pip install adafruit-ampy
 ```
 
-#### 1.2.2 Download File Python Pada Micropython
+### 1.2 Menjalankan File Python dari Komputer
 
-Gunakan perintah `get` Untuk mendownload file python yang ada pada micropython
+Selanjutnya, kita bisa mencoba menjalankan file python yang ada di komputer ke nodemcu. Untuk melakukannya, kita bisa menggunakan perintah `run`
 
 ```bash
-# download file boot.py
-$ ampy --port /dev/ttyUSB0 --baud 115200 get boot.py
-
-# download file main.py
-$ ampy --port /dev/ttyUSB0 --baud 115200 get boot.py
+# menjalankan file hello.py yang ada di komputer
+$ ampy --port /dev/ttyUSB0 --baud 115200 run hello.py
 ```
 
-#### 1.2.3 Upload File Python Pada Micropython
+### 1.3 Upload File Python
 
-Gunakan perintah `put` untuk mengupload file python pada komputer kita ke dalam micropython
+Setelah file python yang ada di komputer berhasil dijalankan pada nodemcu, selanjutnya kita bisa mengupload file python tersebut ke nodemcu. Untuk melakukannya, kita bisa menggunakan perintah `put`
 
 ```bash
-# upload file boot.py
-$ ampy --port /dev/ttyUSB0 --baud 115200 put boot.py
-
-# upload file main.py
-$ ampy --port /dev/ttyUSB0 --baud 115200 put main.py
+# upload file hello.py
+$ ampy --port /dev/ttyUSB0 --baud 115200 put hello.py
 ```
 
-## 2. Mengakses Shell Micropython
- 
-### 2.1 Menginstall rshell
+### 1.4 Melihat Isi File Python
 
-Untuk mengakses shell pada micropython, kita dapat menggunakan program yang bernama rshell, kita dapat menginstallnya menggunakan perintah berikut :
+Untuk memastikan apakah file python telah sukses diupload, kita bisa menggunakan perintah `get` untuk melihat isi file python yang sudah diupload ke nodemcu
 
 ```bash
-$ pip install rshell
+# melihat isi file hello.py
+$ ampy --port /dev/ttyUSB0 --baud 115200 get hello.py
 ```
 
-### 2.2 Masuk ke Shell Micropython
-
-Selanjutnya, kita dapat masuk ke dalam shell mycropython dengan rshell menggunakan perintah berikut :
-
-```bash
-$ rshell --port <port yang digunakan nodemcu>
-```
-
-Jika belum mengetahui port mana yang digunakan. Untuk yang menggunakan windows cukup membuka device manager
-
-## 3. Referensi
+## 2. Referensi
 
 - [Dokumentasi rshell](https://github.com/dhylands/rshell)
 - [Dokumentasi ampy-adafruit](https://learn.adafruit.com/micropython-basics-load-files-and-run-code/install-ampy)

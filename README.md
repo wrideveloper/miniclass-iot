@@ -39,9 +39,6 @@ roadmap untuk miniclass IOT WRI
     - :books: [Mengakses Micropython](materi/microcontroller/4-mengakses-micropython.md)
     - :books: [Breadboard](materi/microcontroller/breadboard.md)
     - :books: [GPIO](materi/microcontroller/gpio.md)
-    - :books: Sensor Digital
-    - :books: Sensor Analog
-    - :books: Pulse with Modulation
     - :computer: Membuat Alat untuk Membaca Sensor Sederhana
 
 5.  **IOT Gateway** :strawberry:
@@ -49,13 +46,13 @@ roadmap untuk miniclass IOT WRI
     - :books: Penjelasan IOT Gateway
     - :books: [Penjelasan Raspberry](materi/iot-gateway/penjelasan-raspi.md)
     - :books: [Mengoneksikan Raspberry ke PC](materi/iot-gateway/koneksi-raspi.md)
-        <!-- - :books: [GPIO](materi/iot-gateway/gpio.md) -->
-      <!-- - :books: [GPIO Input Handling](materi/iot-gateway/gpio-input-handling.md) -->
+    - :books: [GPIO](materi/iot-gateway/gpio.md)
+    - :books: [GPIO Input Handling](materi/iot-gateway/gpio-input-handling.md)
       <!-- - :books: [Penerapan OOP](materi/iot-gateway/oop-raspberry.md) -->
       <!-- - :books: [Sensor Digital](materi/iot-gateway/sensor-digital.md) -->
       <!-- - :books: [Sensor Analog](materi/iot-gateway/sensor-analog.md) -->
-    - :books: Mengirim Data dari Node MCU ke Raspberry
-    - :books: Mengirim Data dari Raspberry ke Server
+    - :books: Menerima Data dari NodeMCU
+    - :books: Mengirim Data ke Server
 
 6.  **Dasar Elektronika** :electric_plug:
 

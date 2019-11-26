@@ -2,7 +2,7 @@
 
 Setelah mempelajari tentang GPIO input, disini kita akan belajar bagaimana cara menghandle GPIO input
 
-## Polling
+## 1. Polling
 
 Cara yang paling sederhana untuk melakukan handling terhadap GPIO input yaitu dengan memeriksa nilai dari GPIO input tersebut menggunakan IF, cara ini disebut dengan polling
 
@@ -21,7 +21,7 @@ while(True):
     print("Input Low")
 ```
 
-## Edge Detection
+## 2. Edge Detection
 
 Edge merupakan perubahan status dari suatu input. Terdapat tiga jenis edge, yaitu :
 
@@ -31,7 +31,7 @@ Edge merupakan perubahan status dari suatu input. Terdapat tiga jenis edge, yait
 
 Terdapat dua cara untuk menghandle GPIO input menggunakan metode edge detection
 
-### 1. Wait For Edge
+### 2.1. Wait For Edge
 
 Wait for edge akan memblok eksekusi dari suatu program hingga ada edge yang terjadi
 
@@ -50,13 +50,13 @@ while(True):
   print("Edge Rising Detected on Channel 15")
 ```
 
-### 2. Event Detect
+### 2.2. Event Detect
 
 Event detect mirip dengan wait for edge, yaitu akan mengeksekusi suatu perintah apabila ada edge yang terdeteksi, namun bedanya adalah event detect tidak memblok eksekusi dari suatu program
 
 Terdapat dua cara untuk mendeteksi edge menggunakan menggunakan event detect, yaitu :
 
-#### Menggunakan IF
+#### 2.2.1. Menggunakan IF
 
 Disini kita akan memanggil method `GPIO.event_detected` dan memeriksa nilainya menggunakan if, apabila edge terdeteksi maka baris perintah if akan dieksekusi
 
@@ -77,7 +77,7 @@ while(True):
     print("Input High")
 ```
 
-#### Menggunakan Callback
+#### 2.2.2. Menggunakan Callback
 
 Disini kita akan membuat method baru yang akan dijalankan setiap kali edge terdeteksi, method ini disebut dengan callback
 
@@ -97,7 +97,7 @@ def my_callback(channel):
 GPIO.add_event_detect(channel, GPIO.RISING, callback=my_callback)
 ```
 
-#### Tambahan : Switch Debounce
+#### 2.2.3. Tambahan : Switch Debounce
 
 Terkadang method callback yang kita buat terpanggil lebih dari satu kali ketika suatu edge terdeteksi, ini disebut dengan switch debounce, untuk menangani masalah ini kita bisa menambahkan `bouncetime` pada saat menambahkan deteksi edge
 

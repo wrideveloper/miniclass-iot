@@ -2,7 +2,7 @@
 
 <img src="./img/rasp.jpg" width="400px">
 
-## Penjelasan
+## 1. Penjelasan Raspberry
 
 Raspberry Pi merupakan sebuah computer mini (micro computer) yang memiliki fungsi yang sama seperti computer pada umumnya mulai dari browsing internet, menonton film, membuat dokumen, bermain game, dan sebagainya.
 
