@@ -48,6 +48,7 @@ roadmap untuk miniclass IOT WRI
     - :books: Penjelasan IOT Gateway
     - :books: [Penjelasan Raspberry](materi/iot-gateway/penjelasan-raspi.md)
     - :books: [Mengoneksikan Raspberry ke PC](materi/iot-gateway/koneksi-raspi.md)
+    - :books: [General Purpose Input Output (GPIO)](materi/iot-gateway/gpio.md)
     - :books: Universal Asynchronous Receiver Transmitter (UART)
     - :books: Mengirim Data ke Server
 
