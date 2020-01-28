@@ -33,14 +33,14 @@ roadmap untuk miniclass IOT WRI
 
 4.  **Microcontroller**
 
-    - :books: [Microcontroller](materi/microcontroller/1-penjelasan-microcontroller.md)
-    - :books: [NodeMCU](materi/microcontroller/2-penjelasan-nodemcu.md)
-    - :books: [Micropython](materi/microcontroller/3-micropython.md)
-    - :books: [Mengakses Micropython](materi/microcontroller/4-mengakses-micropython.md)
+    - :books: [Microcontroller](materi/microcontroller/penjelasan-microcontroller.md)
+    - :books: [NodeMCU](materi/microcontroller/penjelasan-nodemcu.md)
+    - :books: [Micropython](materi/microcontroller/micropython.md)
+    - :books: [Mengakses Micropython](materi/microcontroller/mengakses-micropython.md)
     - :books: [Breadboard](materi/microcontroller/breadboard.md)
     - :books: [General Purpose Input Output (GPIO)](materi/microcontroller/gpio.md)
-    - :books: [Analog Digital Converter (ADC)](materi/microcontroller/adc.md)
-    - :books: Universal Asynchronous Receiver Transmitter (UART)
+    - :books: [WiFi Connection](materi/microcontroller/wifi.md)
+    - :books: [HTTP Request](materi/microcontroller/http-request.md)
     - :computer: Membuat Alat untuk Membaca Sensor Sederhana
 
 5.  **IOT Gateway** :strawberry:
@@ -49,7 +49,6 @@ roadmap untuk miniclass IOT WRI
     - :books: [Penjelasan Raspberry](materi/iot-gateway/penjelasan-raspi.md)
     - :books: [Mengoneksikan Raspberry ke PC](materi/iot-gateway/koneksi-raspi.md)
     - :books: [General Purpose Input Output (GPIO)](materi/iot-gateway/gpio.md)
-    - :books: Universal Asynchronous Receiver Transmitter (UART)
     - :books: Mengirim Data ke Server
 
 6.  **Web Service** :signal_strength:

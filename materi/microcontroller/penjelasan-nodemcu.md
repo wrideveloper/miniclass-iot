@@ -2,7 +2,7 @@
 
 ## 1. Penjelasan NodeMCU
 
-Merupakan sebuah _microcontroller_ yang sudah dilengkapi dengan **_module ESP8266_**. Namun, sejarah dari **nodemcu** sendiri juga merupakan pengembangan dari module **_ESP8266_** yang dilengkapi dengan USB Port yang dapat digunakan sebagai power supply maupun flashing.
+Merupakan sebuah _microcontroller_ yang sudah dilengkapi dengan **_module ESP8266_**. Namun, sejarah dari **NodeMCU** sendiri juga merupakan pengembangan dari module **_ESP8266_** yang dilengkapi dengan USB Port yang dapat digunakan sebagai power supply maupun flashing.
 
 Awalnya **NodeMCU** menggunakan firmware **eLua** _(Embedded Lua)_ dan bahasa pemrograman Lua (Bahasa lua merupakan bahasa yang hampir mirip dengan bahasa javascript). Namun karena board _NodeMCU_ ini merupakan project _open source_ sehingga banyak yang mengembangkan sehingga dapat didevelop menggunakan berbagai firmware salah satunya menggunakan **micropython** yang akan digunakan pada miniclass ini.
 

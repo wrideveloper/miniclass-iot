@@ -4,7 +4,7 @@
 
 GPIO merupakan singkatan dari General Purpose Input Ouput, yaitu kumpulan pin yang berfungsi sebagai input dan output berupa data atau tegangan listrik, sehingga dapat digunakan untuk membaca nilai dari suatu sensor
 
-<img src="img/5-nodemcu-v3-pinout.png" width="800" />
+<img src="img/nodemcu-v3-pinout.png" width="800" />
 
 Diatas merupakan gambaran dari skema pin **NodeMCU**. Berikut merupakan penjelasan dari setiap pin tersebut :
 
